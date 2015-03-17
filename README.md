@@ -30,7 +30,7 @@ Ensure a class only has one instance, and provide a global point of access to it
 7. **Flyweight:**
 Use sharing to support large numbers of fine-grained objects efficiently. A flyweight is a shared object that can be used in multiple contexts simultaneously. The flyweight acts as an independent object in each context; it’s indistinguishable from an instance of the object that’s not shared. (structural)
  
-8. **Adapter:**
+8. **Adapter/Wrapper/Translator:**
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatibility interfaces. (structural)
  
 9. **Façade:**
@@ -78,6 +78,62 @@ Specify the kinds of objects to create using a prototypical instance, and create
 23. **Visitor:**
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. (behavioral)
 
+## Concurrency patterns
+
+1. **Active object**
+
+2. **Balking pattern**
+
+3. **Binding properties**
+
+3. **Barrier**
+
+4. **Disruptor**
+
+5. **Double-checked locking**
+
+5. **Event-based asynchronous**
+
+6. **Guarded suspension**
+
+6. **Join**
+
+6. **Lock**
+
+7. **Leaders/followers pattern**
+
+7. **Messaging design pattern (MDP)**
+
+8. **Monitor object**
+
+9. **Reactor pattern** 
+
+10. **Read write lock pattern**
+
+11. **Scheduler pattern**
+
+12. **Thread pool pattern**
+
+13. **Thread-local storage**
+
+## Code Complete
+
+1. **Front controller**
+
+## Pattern-oriented software architecture 
+
+## Not in the list
+
+1. **Multiton** (creational)
+2. **Object pool** (creational)
+3. **Resource acquisition is initialization** (creational)
+4. **Module** (structural)
+5. **Twin** (structural)
+6. **Blackboard** (behavioral)
+7. **Null object** (behavioral)
+8. **Servant** (behavioral)
+9. **Specification** (behavioral)
+
 ## Sources
 
 1. https://social.msdn.microsoft.com/forums/en-US/af062e83-3e61-45d4-aeaa-d30b4366c6a2/the-23-gang-of-four-design-patterns-cheat-sheet  (2015-03-17)
@@ -88,3 +144,4 @@ Represent an operation to be performed on the elements of an object structure. V
 6. https://en.wikipedia.org/wiki/Creational_pattern (2015-03-17)
 7. https://en.wikipedia.org/wiki/Concurrency_pattern (2015-03-17)
 8. https://en.wikipedia.org/wiki/Structural_pattern (2015-03-17)
+9. http://www.amazon.com/Pattern-Oriented-Software-Architecture-Concurrent-Networked/dp/0471606952/ref=sr_1_1?s=books&ie=UTF8&qid=1426625009&sr=1-1&keywords=Pattern-Oriented+Software+Architecture+2 (2015-03-17)
