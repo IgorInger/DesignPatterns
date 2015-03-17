@@ -138,6 +138,27 @@ Represent an operation to be performed on the elements of an object structure. V
 
 ## Sources
 
+## Sequencing Patterns
+Double Buffer
+Game Loop
+Update Method
+
+##Behavioral Patterns
+Bytecode
+Subclass Sandbox
+Type Object
+
+##Decoupling Patterns
+Component
+Event Queue
+Service Locator
+
+##Optimization Patterns
+Data Locality
+Dirty Flag
+Object Pool
+Spatial Partition
+
 1. https://social.msdn.microsoft.com/forums/en-US/af062e83-3e61-45d4-aeaa-d30b4366c6a2/the-23-gang-of-four-design-patterns-cheat-sheet  (2015-03-17)
 2. https://en.wikipedia.org/wiki/Software_design_pattern (2015-03-17)
 3. https://en.wikipedia.org/wiki/Design_Patterns (2015-03-17)
@@ -147,3 +168,4 @@ Represent an operation to be performed on the elements of an object structure. V
 7. https://en.wikipedia.org/wiki/Concurrency_pattern (2015-03-17)
 8. https://en.wikipedia.org/wiki/Structural_pattern (2015-03-17)
 9. http://www.amazon.com/Pattern-Oriented-Software-Architecture-Concurrent-Networked/dp/0471606952/ref=sr_1_1?s=books&ie=UTF8&qid=1426625009&sr=1-1&keywords=Pattern-Oriented+Software+Architecture+2 (2015-03-17)
+10. http://gameprogrammingpatterns.com/contents.html (2015-03-17)
