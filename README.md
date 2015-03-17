@@ -2,28 +2,45 @@
 
 ## Types of design patterns
 
-1. Behavioral pattern
-2. Concurrency pattern
-3. Creational pattern
-4. Structural pattern
+1. Behavioral patterns
+2. Concurrency patterns
+3. Creational patterns
+4. Structural patterns
+5. Sequencing patterns
+6. Decoupling patterns
+7. Optimization patterns
 
-## The 23 Gang of Four Design Patterns (Cheat Sheet)
- 
+###Behavioral patterns
+
 1. **Strategy:**
 Defines a family of algorithms, encapsulates each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients who use it. (behavioral)
- 
-2. **Decorator:**
-Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. (structural)
- 
-3. **Factory Method:**
-Define an interface for creating an object, but let the subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. (creational)
- 
+
 4. **Observer:**
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. (behavioral)
- 
+
 5. **Chain of Responsibility:**
 Avoid coupling the sender of a request to its receiver by giving more then one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it. (behavioral)
- 
+
+###Concurrency patterns
+
+###Creational patterns
+
+3. **Factory Method:**
+Define an interface for creating an object, but let the subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. (creational)
+
+###Structural patterns
+
+2. **Decorator:**
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. (structural)
+
+###Sequencing patterns
+###Decoupling patterns
+###Optimization patterns
+
+## Books
+
+## The 23 Gang of Four Design Patterns (Cheat Sheet)
+
 6. **Singleton:**
 Ensure a class only has one instance, and provide a global point of access to it. (creational)
  
