@@ -136,8 +136,6 @@ Represent an operation to be performed on the elements of an object structure. V
 
 ##  Patterns of Enterprise Application Architecture
 
-## Sources
-
 ## Sequencing Patterns
 1. Double Buffer
 2. Game Loop
@@ -158,6 +156,8 @@ Represent an operation to be performed on the elements of an object structure. V
 2. Dirty Flag
 3. Object Pool
 4. Spatial Partition
+
+## Sources
 
 1. https://social.msdn.microsoft.com/forums/en-US/af062e83-3e61-45d4-aeaa-d30b4366c6a2/the-23-gang-of-four-design-patterns-cheat-sheet  (2015-03-17)
 2. https://en.wikipedia.org/wiki/Software_design_pattern (2015-03-17)
