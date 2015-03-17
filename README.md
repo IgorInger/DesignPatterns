@@ -139,25 +139,25 @@ Represent an operation to be performed on the elements of an object structure. V
 ## Sources
 
 ## Sequencing Patterns
-Double Buffer
-Game Loop
-Update Method
+1. Double Buffer
+2. Game Loop
+3. Update Method
 
 ##Behavioral Patterns
-Bytecode
-Subclass Sandbox
-Type Object
+1. Bytecode
+2. Subclass Sandbox
+3. Type Object
 
 ##Decoupling Patterns
-Component
-Event Queue
-Service Locator
+1. Component
+2. Event Queue
+3. Service Locator
 
 ##Optimization Patterns
-Data Locality
-Dirty Flag
-Object Pool
-Spatial Partition
+1. Data Locality
+2. Dirty Flag
+3. Object Pool
+4. Spatial Partition
 
 1. https://social.msdn.microsoft.com/forums/en-US/af062e83-3e61-45d4-aeaa-d30b4366c6a2/the-23-gang-of-four-design-patterns-cheat-sheet  (2015-03-17)
 2. https://en.wikipedia.org/wiki/Software_design_pattern (2015-03-17)
