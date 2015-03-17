@@ -134,6 +134,8 @@ Represent an operation to be performed on the elements of an object structure. V
 8. **Servant** (behavioral)
 9. **Specification** (behavioral)
 
+##  Patterns of Enterprise Application Architecture
+
 ## Sources
 
 1. https://social.msdn.microsoft.com/forums/en-US/af062e83-3e61-45d4-aeaa-d30b4366c6a2/the-23-gang-of-four-design-patterns-cheat-sheet  (2015-03-17)
