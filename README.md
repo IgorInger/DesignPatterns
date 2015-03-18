@@ -14,6 +14,8 @@
 Generalized observer, which allows multiple readers and writers. Communicates information system-wide.
 WIKI
 2. **Bytecode:**
+Give behavior the flexibility of data by encoding it as instructions for a virtual machine.
+GPP
 3. **Chain of Responsibility:**
 Avoid coupling the sender of a request to its receiver by giving more then one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 CS
@@ -50,10 +52,14 @@ Allow an object to alter its behavior when its internal state changes. The objec
 Defines a family of algorithms, encapsulates each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients who use it.
 CS
 16. **Subclass Sandbox:**
+Define behavior in a subclass using a set of operations provided by its base class.
+GPP
 17. **Template method:**
 Define a skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.
 CS
 18. **Type Object:**
+Allow the flexible creation of new “classes” by creating a single class, each instance of which represents a different type of object.
+GPP
 19. **Visitor:**
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 CS
@@ -67,20 +73,48 @@ Only execute an action on an object when the object is in a particular state.
 WIKI
 3. **Barrier:**
 3. **Binding properties:**
+Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.
+WIKI
 4. **Disruptor:**
 5. **Double-checked locking:**
+Reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual lock proceed.
+Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an anti-pattern.
+WIKI
 5. **Event-based asynchronous:**
+Addresses problems with the asynchronous pattern that occur in multithreaded programs.
+WIKI
 6. **Guarded suspension:**
+Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.
+WIKI
 6. **Join:**
+Join-patterns provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high level programming model.
+WIKI
 7. **Leaders/followers pattern:**
 6. **Lock:**
+One thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.
+WIKI
 7. **Messaging design pattern (MDP):**
+Allows the interchange of information (i.e. messages) between components and applications.
+WIKI
 8. **Monitor object:**
-9. **Reactor pattern:** 
-10. **Read write lock pattern:**
+An object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.
+WIKI
+9. **Reactor:** 
+A reactor object provides an asynchronous interface to resources that must be handled synchronously.
+WIKI
+10. **Read write lock:**
+Allows concurrent read access to an object, but requires exclusive access for write operations.
+WIKI
 11. **Scheduler pattern:**
+Explicitly control when threads may execute single-threaded code.
+WIKI
 12. **Thread pool pattern:**
-13. **Thread-local storage:**
+A number of threads are created to perform a number of tasks, which are usually organized in a queue.
+Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.
+WIKI
+13. **Thread-local storage (TLC):**
+Static or "global" memory local to a thread.
+WIKI
 
 ###Creational patterns
 1. **Abstract Factory:**
