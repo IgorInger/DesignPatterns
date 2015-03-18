@@ -2,44 +2,44 @@
 
 ## Types of design patterns
 1. [Behavioral patterns](#behavioral-patterns)
-2. Concurrency patterns
-3. Creational patterns
-4. Decoupling patterns
-5. Optimization patterns
-6. Sequencing patterns
-7. Structural patterns
+2. [Concurrency patterns](#concurrency-patterns)
+3. [Creational patterns](#creational-patterns)
+4. [Decoupling patterns](#decoupling-patterns)
+5. [Optimization patterns](#optimization-patterns)
+6. [Sequencing patterns](#sequencing-patterns)
+7. [Structural patterns](#structural-patterns)
 
 ###Behavioral patterns
-12. **Iterator:**
-Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. (behavioral)
-1. **Strategy:**
-Defines a family of algorithms, encapsulates each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients who use it. (behavioral)
-4. **Observer:**
-Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. (behavioral)
-5. **Chain of Responsibility:**
-Avoid coupling the sender of a request to its receiver by giving more then one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it. (behavioral)
-10. **Template method:**
-Define a skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure. (behavioral)
-14. **Command:**
-Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. (behavioral)
-21. **Memento:**
-Without violating encapsulation, capture and externalize an object’s internal state so that the object can be restored to this state later. (behavioral)
-16. **State:**
-Allow an object to alter its behavior when its internal state changes. The object will appear to change its class. (behavioral)
-15. **Mediator:**
-Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and lets you vary their interaction independently. (behavioral)
-20. **Interpreter:**
-Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language. (behavioral)
-23. **Visitor:**
-Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. (behavioral)
-6. **Blackboard** (behavioral)
-7. **Null object** (behavioral)
-8. **Servant** (behavioral)
-9. **Specification** (behavioral)
-1. **Front controller**
-1. Bytecode
-2. Subclass Sandbox
-3. Type Object
+1. **Blackboard:**
+2. **Bytecode:**
+3. **Chain of Responsibility:**
+Avoid coupling the sender of a request to its receiver by giving more then one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+4. **Command:**
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+5. **Front controller:**
+6. **Interpreter:**
+Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+7. **Iterator:**
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+8. **Mediator:**
+Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and lets you vary their interaction independently.
+9. **Memento:**
+Without violating encapsulation, capture and externalize an object’s internal state so that the object can be restored to this state later.
+10. **Null object:**
+11. **Observer:**
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+12. **Servant:**
+13. **Specification:**
+15. **State:**
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+15. **Strategy:**
+Defines a family of algorithms, encapsulates each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients who use it.
+16. **Subclass Sandbox:**
+17. **Template method:**
+Define a skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.
+18. **Type Object:**
+19. **Visitor:**
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
 ###Concurrency patterns
 1. **Active object**
