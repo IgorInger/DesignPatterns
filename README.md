@@ -53,7 +53,13 @@ Represent an operation to be performed on the elements of an object structure. V
 
 9. **Specification** (behavioral)
 
-##Concurrency patterns
+1. **Front controller**
+
+1. Bytecode
+2. Subclass Sandbox
+3. Type Object
+
+###Concurrency patterns
 
 1. **Active object**
 
@@ -90,7 +96,6 @@ Represent an operation to be performed on the elements of an object structure. V
 12. **Thread pool pattern**
 
 13. **Thread-local storage**
-
 
 ###Creational patterns
 
@@ -142,45 +147,27 @@ Provide a surrogate or placeholder for another object to control access to it. (
 19. **Bridge:**
 Decouple an abstraction from its implementation so that the two can vary independently. (structural)
 
-###Sequencing patterns
-###Decoupling patterns
-###Optimization patterns
+### Sequencing Patterns
+1. **Double Buffer**
+2. **Game Loop**
+3. **Update Method**
 
-## Books
-1. The 23 Gang of Four Design Patterns (Cheat Sheet)
+###Decoupling Patterns
+1. **Component**
+2. **Event Queue**
+3. **Service Locator**
 
-## Concurrency patterns
-
-## Code Complete
-
-1. **Front controller**
-
-## Pattern-oriented software architecture 
-
-## Not in the list
-
-##  Patterns of Enterprise Application Architecture
-
-## Sequencing Patterns
-1. Double Buffer
-2. Game Loop
-3. Update Method
-
-##Behavioral Patterns
-1. Bytecode
-2. Subclass Sandbox
-3. Type Object
-
-##Decoupling Patterns
-1. Component
-2. Event Queue
-3. Service Locator
-
-##Optimization Patterns
+###Optimization Patterns
 1. Data Locality
 2. Dirty Flag
 3. Object Pool
 4. Spatial Partition
+
+## Books
+1. The 23 Gang of Four Design Patterns (Cheat Sheet)
+2. Code Complete
+3. Pattern-oriented software architecture 
+4. Patterns of Enterprise Application Architecture
 
 ## Sources
 
