@@ -1,7 +1,7 @@
 # Software Design Patterns
 
 ## Types of design patterns
-1. Behavioral patterns
+1. [Behavioral patterns](###Behavioral patterns)
 2. Concurrency patterns
 3. Creational patterns
 4. Decoupling patterns
