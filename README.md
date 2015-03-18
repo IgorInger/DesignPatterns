@@ -53,7 +53,44 @@ Represent an operation to be performed on the elements of an object structure. V
 
 9. **Specification** (behavioral)
 
-###Concurrency patterns
+##Concurrency patterns
+
+1. **Active object**
+
+2. **Balking pattern**
+
+3. **Binding properties**
+
+3. **Barrier**
+
+4. **Disruptor**
+
+5. **Double-checked locking**
+
+5. **Event-based asynchronous**
+
+6. **Guarded suspension**
+
+6. **Join**
+
+6. **Lock**
+
+7. **Leaders/followers pattern**
+
+7. **Messaging design pattern (MDP)**
+
+8. **Monitor object**
+
+9. **Reactor pattern** 
+
+10. **Read write lock pattern**
+
+11. **Scheduler pattern**
+
+12. **Thread pool pattern**
+
+13. **Thread-local storage**
+
 
 ###Creational patterns
 
@@ -110,46 +147,9 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 ###Optimization patterns
 
 ## Books
-
-## The 23 Gang of Four Design Patterns (Cheat Sheet)
+1. The 23 Gang of Four Design Patterns (Cheat Sheet)
 
 ## Concurrency patterns
-
-1. **Active object**
-
-2. **Balking pattern**
-
-3. **Binding properties**
-
-3. **Barrier**
-
-4. **Disruptor**
-
-5. **Double-checked locking**
-
-5. **Event-based asynchronous**
-
-6. **Guarded suspension**
-
-6. **Join**
-
-6. **Lock**
-
-7. **Leaders/followers pattern**
-
-7. **Messaging design pattern (MDP)**
-
-8. **Monitor object**
-
-9. **Reactor pattern** 
-
-10. **Read write lock pattern**
-
-11. **Scheduler pattern**
-
-12. **Thread pool pattern**
-
-13. **Thread-local storage**
 
 ## Code Complete
 
