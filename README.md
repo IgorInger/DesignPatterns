@@ -183,6 +183,7 @@ WIKI
 9. **Proxy:**
 Provide a surrogate or placeholder for another object to control access to it.
 CS
+![proxy.uml](http://yuml.me/c6bd4462)
 10. **Twin:** (structural)
 
 ## Books
