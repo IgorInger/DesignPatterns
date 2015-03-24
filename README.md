@@ -201,3 +201,4 @@ CS
 8. https://en.wikipedia.org/wiki/Structural_pattern (2015-03-17)
 9. http://www.amazon.com/Pattern-Oriented-Software-Architecture-Concurrent-Networked/dp/0471606952/ref=sr_1_1?s=books&ie=UTF8&qid=1426625009&sr=1-1&keywords=Pattern-Oriented+Software+Architecture+2 (2015-03-17)
 10. http://gameprogrammingpatterns.com/contents.html (2015-03-17)
+11. yuml.me (2015-03-24)
