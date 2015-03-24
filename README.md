@@ -64,7 +64,7 @@ GPP
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 CS
 
-![Visitor.uml](http://yuml.me/cd5c5e05)
+![Visitor.uml](http://yuml.me/b834cf09)
 
 ###Concurrency patterns
 1. **Active object:**
