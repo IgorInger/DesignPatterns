@@ -137,6 +137,7 @@ CS
 8. **Singleton:**
 Ensure a class only has one instance, and provide a global point of access to it.
 CS
+![Singleton.uml](http://yuml.me/1ce87b6c)
 
 ###Decoupling Patterns
 1. **Component:**
