@@ -64,6 +64,8 @@ GPP
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 CS
 
+![Visitor.uml](http://yuml.me/cd5c5e05)
+
 ###Concurrency patterns
 1. **Active object:**
 Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.
