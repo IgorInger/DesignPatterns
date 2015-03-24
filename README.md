@@ -57,6 +57,7 @@ GPP
 17. **Template method:**
 Define a skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.
 CS
+![TemplateMethod.uml](http://yuml.me/aa327247)
 18. **Type Object:**
 Allow the flexible creation of new “classes” by creating a single class, each instance of which represents a different type of object.
 GPP
