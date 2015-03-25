@@ -13,16 +13,16 @@
 1. **Blackboard:**
 Generalized observer, which allows multiple readers and writers. Communicates information system-wide.
 WIKI
-2. **Bytecode:**
+1. **Bytecode:**
 Give behavior the flexibility of data by encoding it as instructions for a virtual machine.
 GPP
-3. **Chain of Responsibility:**
+1. **Chain of Responsibility:**
 Avoid coupling the sender of a request to its receiver by giving more then one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 CS
-4. **Command:**
+1. **Command:**
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 CS
-6. **Interpreter:**
+1. **Interpreter:**
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 CS
 ![Iterpreter.uml](http://yuml.me/8ce084c6)
