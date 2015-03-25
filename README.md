@@ -25,6 +25,7 @@ CS
 6. **Interpreter:**
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 CS
+![Iterpreter.uml](http://yuml.me/8ce084c6)
 7. **Iterator:**
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 CS
